@@ -1,0 +1,44 @@
+body {
+    background-color: #0e0e0e;
+}
+
+.topLink {
+    color: #b0b0b0;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.Download-content-wrapper{
+    cursor: pointer;
+}
+
+.image-container {
+    margin-top: 20px;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;  /* Center the container */
+    overflow: hidden;  /* Prevent overflow */
+}
+
+.background-image {
+    width: 100%;
+    display: block;  /* Ensure the image scales properly */
+    border-radius: 5%;
+}
+
+.video-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: auto;
+    transform: translate(-50%, -50%);  /* Center the video */
+}
+
+.overlay-video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
